@@ -46,6 +46,7 @@ This mutant changed the comparison check from (value < range.getLowerBound()) to
 
 # Report all the statistics and the mutation score for each test class
 (BEFORE) RangeTest: 61%
+
 ![befor range tests](https://github.com/seng438-winter-2022/seng438-a4-Sun2129/blob/main/Images/RangeTestBefore.png?raw=true)
 
 (AFTER) RangeTest: 71%
