@@ -51,9 +51,15 @@ This mutant changed the comparison check from (value < range.getLowerBound()) to
 
 (AFTER) RangeTest: 71%
 
+![after range tests](https://github.com/seng438-winter-2022/seng438-a4-Sun2129/blob/main/Images/RangeTestAfter.png?raw=true)
+
 (BEFORE) DataUtilitiesTest: 85%
 
+![before data utilities tests](https://github.com/seng438-winter-2022/seng438-a4-Sun2129/blob/main/Images/DataUtilitiesTestBefore.png?raw=true)
+
 (AFTER) DataUtilitiesTest: 90%
+
+![after data utilities tests](https://github.com/seng438-winter-2022/seng438-a4-Sun2129/blob/main/Images/DataUtilitiesTestAfter.png?raw=true)
 
 We could not get more than a 5% increase in mutation testing for DataUtilities because we already had 85% before, and the amount of mutations we needed to kill became harder to catch and kill as it requires nearly 100% of them to be killed.
 
