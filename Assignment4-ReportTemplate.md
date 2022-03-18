@@ -45,6 +45,16 @@ This mutant changed the comparison check from (value < range.getLowerBound()) to
 
 
 # Report all the statistics and the mutation score for each test class
+(BEFORE) RangeTest: 61%
+
+(AFTER) RangeTest: 71%
+
+(BEFORE) DataUtilitiesTest: 85%
+
+(AFTER) DataUtilitiesTest: 90%
+
+We could not get more than a 5% increase in mutation testing for DataUtilities because we already had 85% before, and the amount of mutations we needed to kill became harder to catch and kill as it requires nearly 100% of them to be killed.
+
 
 # Analysis drawn on the effectiveness of each of the test classes
 
